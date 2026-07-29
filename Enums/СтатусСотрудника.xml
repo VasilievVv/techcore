@@ -38,7 +38,7 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="c10e9fae-af91-4c8d-aaf8-8c373c85c5c1">
+			<EnumValue uuid="98e919bb-07a2-4fbd-90bb-9d22eb666874">
 				<Properties>
 					<Name>Работает</Name>
 					<Synonym>
@@ -50,37 +50,13 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="048bfa0a-08f1-42f1-b065-1b7e29592265">
+			<EnumValue uuid="e0e6642b-1baa-4a4e-9d84-5d6765f0ae2e">
 				<Properties>
 					<Name>Уволен</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уволен</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="6a7655c6-b8ca-4dcd-b074-b647d0bf9e30">
-				<Properties>
-					<Name>Сокращен</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сокращен</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="5ecad0fa-7255-4a4c-bf50-c94cbbac64f9">
-				<Properties>
-					<Name>ВОтпуске</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>В отпуске</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

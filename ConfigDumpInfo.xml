@@ -1,17 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.Отделы" id="2b2eed53-6764-4218-a97e-d0eea44b3154" configVersion="fe22d571f02cd6438a1cb677ba372d0f00000000"/>
-		<Metadata name="Catalog.Сотрудники" id="62f557ba-61ee-4a5e-b121-9572cd46b011" configVersion="523be527c5d568498963697051705e6400000000">
+		<Metadata name="Catalog.Отделы" id="2b2eed53-6764-4218-a97e-d0eea44b3154" configVersion="22e24173a2428e4ab6ba7537ec7abb0400000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаСписка" id="5116ca6a-1dcf-4d52-aefd-4fe4c845c2d5" configVersion="575c91d9cc15374585ff98755ac1c3ea00000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаСписка.Form" id="5116ca6a-1dcf-4d52-aefd-4fe4c845c2d5.0" configVersion="c6c3cdec9f69f14b9f62a07ca0d976b800000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаЭлемента" id="6f2cf715-babb-4eb4-9367-6faeb1a42af4" configVersion="1d2e0bf569d55744900b5bac0ef71b8c00000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаЭлемента.Form" id="6f2cf715-babb-4eb4-9367-6faeb1a42af4.0" configVersion="40f0ed45aed59d428b3cd6aad52be48d00000000"/>
+		<Metadata name="Catalog.Сотрудники" id="62f557ba-61ee-4a5e-b121-9572cd46b011" configVersion="f780289b49b42b40943172d94fc77a4100000000">
 			<Metadata name="Catalog.Сотрудники.Attribute.СтатусСотрудника" id="80305882-00ef-483e-b530-9e10e84c2344"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Отдел" id="efa6bcda-e8bb-4e8f-810a-bf37a3bc7376"/>
 		</Metadata>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка" id="7f63b76e-3c67-4e36-9a5d-f0ddf0473683" configVersion="d70c2f761c34854aa83a6942981ed0f300000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка.Form" id="7f63b76e-3c67-4e36-9a5d-f0ddf0473683.0" configVersion="69fc6d4db8879a47b26b2ac41a2271cd00000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="19a253ef-77a3-45f2-a414-65216d0f6ed4" configVersion="1690c09e88f5ff4da1b97bc52bb8e1f900000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="19a253ef-77a3-45f2-a414-65216d0f6ed4.0" configVersion="2d4183bbf90a52498d32e3d019eb873700000000"/>
 		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="02fc8def2c979e4b934c6c615b1b33f500000000"/>
-		<Metadata name="Enum.СтатусСотрудника" id="a177b76a-74c9-4675-add8-37b6c8a9e4ec" configVersion="6c3c170408372f40990c8fc0f952164d00000000">
-			<Metadata name="Enum.СтатусСотрудника.EnumValue.Уволен" id="048bfa0a-08f1-42f1-b065-1b7e29592265"/>
-			<Metadata name="Enum.СтатусСотрудника.EnumValue.ВОтпуске" id="5ecad0fa-7255-4a4c-bf50-c94cbbac64f9"/>
-			<Metadata name="Enum.СтатусСотрудника.EnumValue.Сокращен" id="6a7655c6-b8ca-4dcd-b074-b647d0bf9e30"/>
-			<Metadata name="Enum.СтатусСотрудника.EnumValue.Работает" id="c10e9fae-af91-4c8d-aaf8-8c373c85c5c1"/>
+		<Metadata name="Enum.СтатусСотрудника" id="a177b76a-74c9-4675-add8-37b6c8a9e4ec" configVersion="b252484fe3b014478d85b605125baa1000000000">
+			<Metadata name="Enum.СтатусСотрудника.EnumValue.Работает" id="98e919bb-07a2-4fbd-90bb-9d22eb666874"/>
+			<Metadata name="Enum.СтатусСотрудника.EnumValue.Уволен" id="e0e6642b-1baa-4a4e-9d84-5d6765f0ae2e"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="676ff51a-2804-4a39-950f-9dc77fc4a726" configVersion="9e30857d76882649832399730a475d2b00000000"/>
 		<Metadata name="Subsystem.Модуль1" id="a925d9b3-c89a-4d34-bbf6-886db256869a" configVersion="03b37ac2c651bc4e9563e1126b645e1500000000"/>
