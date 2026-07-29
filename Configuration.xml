@@ -254,6 +254,7 @@
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Отделы</Catalog>
 			<Enum>СтатусСотрудника</Enum>
+			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

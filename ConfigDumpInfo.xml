@@ -14,12 +14,22 @@
 		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка.Form" id="7f63b76e-3c67-4e36-9a5d-f0ddf0473683.0" configVersion="69fc6d4db8879a47b26b2ac41a2271cd00000000"/>
 		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="19a253ef-77a3-45f2-a414-65216d0f6ed4" configVersion="1690c09e88f5ff4da1b97bc52bb8e1f900000000"/>
 		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="19a253ef-77a3-45f2-a414-65216d0f6ed4.0" configVersion="2d4183bbf90a52498d32e3d019eb873700000000"/>
-		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="02fc8def2c979e4b934c6c615b1b33f500000000"/>
-		<Metadata name="Enum.СтатусСотрудника" id="a177b76a-74c9-4675-add8-37b6c8a9e4ec" configVersion="b252484fe3b014478d85b605125baa1000000000">
+		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="266a6b35887afb4dac2ebddb752e4aad00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников" id="eb2621e1-0fb5-4594-9206-14837c7678fc" configVersion="2e5f4c2986d178459b18c9e47f534e6000000000">
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Attribute.ФорматФайла" id="1a4ae715-1bef-41d8-b097-a04156f5196d"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников.Attribute.Отдел" id="1b4a547d-b8b5-407e-b602-82738868ed98"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников.Attribute.СтатусСотрудника" id="6e430076-8925-4073-8d8b-307c5e88f5fb"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников.Attribute.Сотрудник" id="ad702533-3a6a-4fe1-822d-cf62ce66d493"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Attribute.ПутьКФайлу" id="e00f605b-3b5e-4555-9cce-8cc745749bde"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников" id="e7ba4a4c-2dfa-464b-b1bd-677c28f78802"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Form.Форма" id="f7c613fb-418d-4380-9277-21a1ebb9f2a2" configVersion="9520bc1a5ed5304a96fd9727ca63a3cb00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Form.Форма.Form" id="f7c613fb-418d-4380-9277-21a1ebb9f2a2.0" configVersion="544006b742c7764183ae274117cd4b8200000000"/>
+		<Metadata name="Enum.СтатусСотрудника" id="a177b76a-74c9-4675-add8-37b6c8a9e4ec" configVersion="a02b6723458c0f4eb360533b4e8bc51000000000">
 			<Metadata name="Enum.СтатусСотрудника.EnumValue.Работает" id="98e919bb-07a2-4fbd-90bb-9d22eb666874"/>
 			<Metadata name="Enum.СтатусСотрудника.EnumValue.Уволен" id="e0e6642b-1baa-4a4e-9d84-5d6765f0ae2e"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="676ff51a-2804-4a39-950f-9dc77fc4a726" configVersion="9e30857d76882649832399730a475d2b00000000"/>
-		<Metadata name="Subsystem.Модуль1" id="a925d9b3-c89a-4d34-bbf6-886db256869a" configVersion="03b37ac2c651bc4e9563e1126b645e1500000000"/>
+		<Metadata name="Subsystem.Модуль1" id="a925d9b3-c89a-4d34-bbf6-886db256869a" configVersion="b88d24b92203e6449e25f998d8502fc100000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
