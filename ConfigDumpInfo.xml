@@ -33,16 +33,21 @@
 		</Metadata>
 		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Form.Форма" id="f7c613fb-418d-4380-9277-21a1ebb9f2a2" configVersion="cfd914171046c347abc56aa8677d9adf00000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Form.Форма.Form" id="f7c613fb-418d-4380-9277-21a1ebb9f2a2.0" configVersion="57e26a37c4a63b4585d3b3ef2c21d81a00000000"/>
-		<Metadata name="Document.Заявка" id="b7de5b0f-57a7-4ca5-9d31-54863060d278" configVersion="d4cf82d15fd6e34b946f73151ae1f12500000000">
+		<Metadata name="Document.Заявка" id="b7de5b0f-57a7-4ca5-9d31-54863060d278" configVersion="2bb4c2452da2e8449ec8088ba914670b00000000">
 			<Metadata name="Document.Заявка.TabularSection.Услуги.Attribute.Цена" id="0a8c8768-5a85-4a62-97a1-8c5417b42704"/>
 			<Metadata name="Document.Заявка.TabularSection.Услуги.Attribute.Услуга" id="16bc85b6-7754-4a6a-a7ef-88bd71da528f"/>
 			<Metadata name="Document.Заявка.TabularSection.Услуги.Attribute.Сумма" id="3757b0b5-bc31-4aa3-86d8-8c0f3d1bd66d"/>
 			<Metadata name="Document.Заявка.Attribute.Клиент" id="5e50aa25-b384-4f50-9099-1b48fd96591a"/>
 			<Metadata name="Document.Заявка.TabularSection.Услуги" id="c5339116-766a-471e-9624-836475888bba"/>
 			<Metadata name="Document.Заявка.TabularSection.Услуги.Attribute.Количество" id="df282fdc-c4e3-4db8-88b5-31b1881d9f0d"/>
+			<Metadata name="Document.Заявка.Command.Печать" id="e235ebe9-19ed-422e-a430-230de5353b99"/>
 		</Metadata>
+		<Metadata name="Document.Заявка.Command.Печать.CommandModule" id="e235ebe9-19ed-422e-a430-230de5353b99.2" configVersion="83a51ed1327db24c884adb40e1a25c9300000000"/>
 		<Metadata name="Document.Заявка.Form.ФормаДокумента" id="d0c4a6a3-2ca9-44d4-85f7-9000955e1dcf" configVersion="0ff5bd771c3bd64d8a63296f905ac18a00000000"/>
 		<Metadata name="Document.Заявка.Form.ФормаДокумента.Form" id="d0c4a6a3-2ca9-44d4-85f7-9000955e1dcf.0" configVersion="66024298b84a5e46821f41fac440e34300000000"/>
+		<Metadata name="Document.Заявка.ManagerModule" id="b7de5b0f-57a7-4ca5-9d31-54863060d278.2" configVersion="23bb4a18429add4f85f993a4d017e03800000000"/>
+		<Metadata name="Document.Заявка.Template.Печать" id="cea4c238-0a6a-421f-b693-9b992cadbf71" configVersion="11d889e1eeb16548ba709fd141c4ed8d00000000"/>
+		<Metadata name="Document.Заявка.Template.Печать.Template" id="cea4c238-0a6a-421f-b693-9b992cadbf71.0" configVersion="657d446cc5204f47b40b0f63fc7a1d4c00000000"/>
 		<Metadata name="Enum.СтатусСотрудника" id="a177b76a-74c9-4675-add8-37b6c8a9e4ec" configVersion="a02b6723458c0f4eb360533b4e8bc51000000000">
 			<Metadata name="Enum.СтатусСотрудника.EnumValue.Работает" id="98e919bb-07a2-4fbd-90bb-9d22eb666874"/>
 			<Metadata name="Enum.СтатусСотрудника.EnumValue.Уволен" id="e0e6642b-1baa-4a4e-9d84-5d6765f0ae2e"/>
