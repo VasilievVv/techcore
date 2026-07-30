@@ -151,6 +151,7 @@
 					<v8:content>Записать сотрудников</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ЗаписатьСотрудников</Action>
 		</Command>
 	</Commands>
 </Form>
