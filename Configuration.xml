@@ -251,8 +251,12 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Модуль1</Subsystem>
+			<Subsystem>УчетЗаявок</Subsystem>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Отделы</Catalog>
+			<Catalog>Клиенты</Catalog>
+			<Catalog>Услуги</Catalog>
+			<Document>Заявка</Document>
 			<Enum>СтатусСотрудника</Enum>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 		</ChildObjects>
