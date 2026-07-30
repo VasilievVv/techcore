@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.Клиенты" id="0b7f5f1b-d5f5-4af4-99bb-35146080bfa4" configVersion="a0329a1f5425d74886a226ec0558ea1c00000000">
+		<Metadata name="Catalog.Клиенты" id="0b7f5f1b-d5f5-4af4-99bb-35146080bfa4" configVersion="b81c6fdd3d04ba419bb4f6a2dbe1643d00000000">
 			<Metadata name="Catalog.Клиенты.Attribute.ИНН" id="d4876998-9e9f-4165-a3a0-e23f86ca7317"/>
 		</Metadata>
+		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента" id="71e5c259-bafa-40a2-8621-1c90191d6e3e" configVersion="53da59497412914a80d0288ca557eefb00000000"/>
+		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента.Form" id="71e5c259-bafa-40a2-8621-1c90191d6e3e.0" configVersion="3cd704a568d7254fa744b15bd1bc20bd00000000"/>
+		<Metadata name="Catalog.Клиенты.ObjectModule" id="0b7f5f1b-d5f5-4af4-99bb-35146080bfa4.0" configVersion="60572ec4462c35409bd98cf68f33322f00000000"/>
 		<Metadata name="Catalog.Отделы" id="2b2eed53-6764-4218-a97e-d0eea44b3154" configVersion="22e24173a2428e4ab6ba7537ec7abb0400000000"/>
 		<Metadata name="Catalog.Отделы.Form.ФормаСписка" id="5116ca6a-1dcf-4d52-aefd-4fe4c845c2d5" configVersion="575c91d9cc15374585ff98755ac1c3ea00000000"/>
 		<Metadata name="Catalog.Отделы.Form.ФормаСписка.Form" id="5116ca6a-1dcf-4d52-aefd-4fe4c845c2d5.0" configVersion="c6c3cdec9f69f14b9f62a07ca0d976b800000000"/>
