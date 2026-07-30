@@ -1,7 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="891938b85261eb4baa1ce4270ddfb18700000000"/>
+		<Metadata name="Catalog.Отделы" id="2b2eed53-6764-4218-a97e-d0eea44b3154" configVersion="22e24173a2428e4ab6ba7537ec7abb0400000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаСписка" id="5116ca6a-1dcf-4d52-aefd-4fe4c845c2d5" configVersion="575c91d9cc15374585ff98755ac1c3ea00000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаСписка.Form" id="5116ca6a-1dcf-4d52-aefd-4fe4c845c2d5.0" configVersion="c6c3cdec9f69f14b9f62a07ca0d976b800000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаЭлемента" id="6f2cf715-babb-4eb4-9367-6faeb1a42af4" configVersion="1d2e0bf569d55744900b5bac0ef71b8c00000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаЭлемента.Form" id="6f2cf715-babb-4eb4-9367-6faeb1a42af4.0" configVersion="40f0ed45aed59d428b3cd6aad52be48d00000000"/>
+		<Metadata name="Catalog.Сотрудники" id="62f557ba-61ee-4a5e-b121-9572cd46b011" configVersion="f780289b49b42b40943172d94fc77a4100000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.СтатусСотрудника" id="80305882-00ef-483e-b530-9e10e84c2344"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Отдел" id="efa6bcda-e8bb-4e8f-810a-bf37a3bc7376"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка" id="7f63b76e-3c67-4e36-9a5d-f0ddf0473683" configVersion="d70c2f761c34854aa83a6942981ed0f300000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка.Form" id="7f63b76e-3c67-4e36-9a5d-f0ddf0473683.0" configVersion="69fc6d4db8879a47b26b2ac41a2271cd00000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="19a253ef-77a3-45f2-a414-65216d0f6ed4" configVersion="1690c09e88f5ff4da1b97bc52bb8e1f900000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="19a253ef-77a3-45f2-a414-65216d0f6ed4.0" configVersion="2d4183bbf90a52498d32e3d019eb873700000000"/>
+		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="266a6b35887afb4dac2ebddb752e4aad00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников" id="eb2621e1-0fb5-4594-9206-14837c7678fc" configVersion="2e5f4c2986d178459b18c9e47f534e6000000000">
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Attribute.ФорматФайла" id="1a4ae715-1bef-41d8-b097-a04156f5196d"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников.Attribute.Отдел" id="1b4a547d-b8b5-407e-b602-82738868ed98"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников.Attribute.СтатусСотрудника" id="6e430076-8925-4073-8d8b-307c5e88f5fb"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников.Attribute.Сотрудник" id="ad702533-3a6a-4fe1-822d-cf62ce66d493"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Attribute.ПутьКФайлу" id="e00f605b-3b5e-4555-9cce-8cc745749bde"/>
+			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников" id="e7ba4a4c-2dfa-464b-b1bd-677c28f78802"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Form.Форма" id="f7c613fb-418d-4380-9277-21a1ebb9f2a2" configVersion="cfd914171046c347abc56aa8677d9adf00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Form.Форма.Form" id="f7c613fb-418d-4380-9277-21a1ebb9f2a2.0" configVersion="57e26a37c4a63b4585d3b3ef2c21d81a00000000"/>
+		<Metadata name="Enum.СтатусСотрудника" id="a177b76a-74c9-4675-add8-37b6c8a9e4ec" configVersion="a02b6723458c0f4eb360533b4e8bc51000000000">
+			<Metadata name="Enum.СтатусСотрудника.EnumValue.Работает" id="98e919bb-07a2-4fbd-90bb-9d22eb666874"/>
+			<Metadata name="Enum.СтатусСотрудника.EnumValue.Уволен" id="e0e6642b-1baa-4a4e-9d84-5d6765f0ae2e"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="676ff51a-2804-4a39-950f-9dc77fc4a726" configVersion="9e30857d76882649832399730a475d2b00000000"/>
+		<Metadata name="Subsystem.Модуль1" id="a925d9b3-c89a-4d34-bbf6-886db256869a" configVersion="b88d24b92203e6449e25f998d8502fc100000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
