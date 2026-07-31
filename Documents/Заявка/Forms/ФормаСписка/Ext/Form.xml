@@ -84,6 +84,11 @@
 					<ContextMenu name="КлиентКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="24"/>
 				</LabelField>
+				<LabelField name="СтатусЗаявки" id="25">
+					<DataPath>Список.СтатусЗаявки</DataPath>
+					<ContextMenu name="СтатусЗаявкиКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="СтатусЗаявкиРасширеннаяПодсказка" id="27"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

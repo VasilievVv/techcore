@@ -258,7 +258,9 @@
 			<Catalog>Услуги</Catalog>
 			<Document>Заявка</Document>
 			<Enum>СтатусСотрудника</Enum>
+			<Enum>СтатусыЗаявки</Enum>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
+			<InformationRegister>СтатусыЗаявок</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
