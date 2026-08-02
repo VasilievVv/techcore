@@ -263,6 +263,7 @@
 			<Document>Реализация</Document>
 			<Enum>СтатусСотрудника</Enum>
 			<Enum>СтатусыЗаявки</Enum>
+			<Report>ОтчетПоОстаткамНоменклауры</Report>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>

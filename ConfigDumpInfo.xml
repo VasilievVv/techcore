@@ -31,7 +31,7 @@
 		<Metadata name="Catalog.Услуги.Form.ФормаСписка.Form" id="961918e6-2e1d-421c-93b2-657f9c41dbe2.0" configVersion="1b59a522e0f47041a6b94e27054c3b1600000000"/>
 		<Metadata name="Catalog.Услуги.Form.ФормаЭлемента" id="f43528e5-f207-4109-b335-786a4ab17be5" configVersion="9064c2abf15ad24686555f9b3c01867100000000"/>
 		<Metadata name="Catalog.Услуги.Form.ФормаЭлемента.Form" id="f43528e5-f207-4109-b335-786a4ab17be5.0" configVersion="cbca2df584c3c64a86aeb71f2741c17300000000"/>
-		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="bcd9b5ed1f1e084f8b29d22adb2ba15500000000"/>
+		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="600f1e37b477934784ed6a9651959ac700000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников" id="eb2621e1-0fb5-4594-9206-14837c7678fc" configVersion="2e5f4c2986d178459b18c9e47f534e6000000000">
 			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Attribute.ФорматФайла" id="1a4ae715-1bef-41d8-b097-a04156f5196d"/>
 			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников.Attribute.Отдел" id="1b4a547d-b8b5-407e-b602-82738868ed98"/>
@@ -97,7 +97,10 @@
 			<Metadata name="InformationRegister.СтатусыЗаявок.Resource.Статус" id="d3754437-ab91-4bc3-9c00-8eaf47fd0ced"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="676ff51a-2804-4a39-950f-9dc77fc4a726" configVersion="9e30857d76882649832399730a475d2b00000000"/>
-		<Metadata name="Subsystem.МиниСклад" id="b589b3ad-3d92-4149-8682-ee0e50791ddc" configVersion="970b4c7817492245bccb87b6caa7831000000000"/>
+		<Metadata name="Report.ОтчетПоОстаткамНоменклауры" id="7d09a802-0005-47be-9923-b287eb639d32" configVersion="3f171d225887a54e92eea55281c70b8500000000"/>
+		<Metadata name="Report.ОтчетПоОстаткамНоменклауры.Template.ОсновнаяСхемаКомпоновкиДанных" id="0290141d-60f9-482a-aaf0-4eaf7f0e7b1e" configVersion="4b1959ac3366f34d828a88b40e0a7ea500000000"/>
+		<Metadata name="Report.ОтчетПоОстаткамНоменклауры.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="0290141d-60f9-482a-aaf0-4eaf7f0e7b1e.0" configVersion="3e3188d34a3a9d4f9679f8a51beb441200000000"/>
+		<Metadata name="Subsystem.МиниСклад" id="b589b3ad-3d92-4149-8682-ee0e50791ddc" configVersion="d046745d4f284d45b93ff126b3d2bfa400000000"/>
 		<Metadata name="Subsystem.Модуль1" id="a925d9b3-c89a-4d34-bbf6-886db256869a" configVersion="b88d24b92203e6449e25f998d8502fc100000000"/>
 		<Metadata name="Subsystem.УчетЗаявок" id="6d608a7c-7351-4963-92c6-bb385ff24593" configVersion="a647c4a32045f74d94d605b761bd750d00000000"/>
 	</ConfigVersions>
