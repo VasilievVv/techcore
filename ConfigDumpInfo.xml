@@ -60,7 +60,17 @@
 		<Metadata name="Document.Заявка.ObjectModule" id="b7de5b0f-57a7-4ca5-9d31-54863060d278.0" configVersion="0f47dc832458504fa1b51f5a04edf48c00000000"/>
 		<Metadata name="Document.Заявка.Template.Печать" id="cea4c238-0a6a-421f-b693-9b992cadbf71" configVersion="11d889e1eeb16548ba709fd141c4ed8d00000000"/>
 		<Metadata name="Document.Заявка.Template.Печать.Template" id="cea4c238-0a6a-421f-b693-9b992cadbf71.0" configVersion="657d446cc5204f47b40b0f63fc7a1d4c00000000"/>
-		<Metadata name="Document.Поступление" id="17f947e0-a5a3-481d-8387-5c3caf39e401" configVersion="735fc392f07da74ea9f5b7ed8c99249a00000000"/>
+		<Metadata name="Document.Поступление" id="17f947e0-a5a3-481d-8387-5c3caf39e401" configVersion="6a7c18ddfb6cf94bbc3d695b0f3e3b5000000000">
+			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Сумма" id="45273af4-7d46-4c8c-9eba-192771d4c548"/>
+			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Количество" id="48962f52-d429-4396-a05f-82fb987ea31e"/>
+			<Metadata name="Document.Поступление.TabularSection.Товары" id="94348294-5c3c-4985-8548-e79bad58c5ad"/>
+			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Цена" id="b8725401-abfe-47cd-aa91-91515b976dc1"/>
+			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Товар" id="c0ba9a19-97da-454e-9d5b-ceefcd841e5b"/>
+			<Metadata name="Document.Поступление.Attribute.Контрагент" id="e014e288-fe0f-4404-b5df-1f8d34c159fb"/>
+		</Metadata>
+		<Metadata name="Document.Поступление.Form.ФормаДокумента" id="34cafa9b-3604-4a96-8966-10a2cabc080a" configVersion="739fceaa794da74891dbcdd8f80c090400000000"/>
+		<Metadata name="Document.Поступление.Form.ФормаДокумента.Form" id="34cafa9b-3604-4a96-8966-10a2cabc080a.0" configVersion="f58e9e314d4a3d45a2502359f4355e5d00000000"/>
+		<Metadata name="Document.Поступление.ObjectModule" id="17f947e0-a5a3-481d-8387-5c3caf39e401.0" configVersion="8fabd1de3a4f994db7ef4f92236a9b0e00000000"/>
 		<Metadata name="Document.Реализация" id="8720ac80-168d-4b1d-a687-957e861da441" configVersion="9d9c0f8879b52e47b0cbb658f6cf1b7b00000000"/>
 		<Metadata name="Enum.СтатусСотрудника" id="a177b76a-74c9-4675-add8-37b6c8a9e4ec" configVersion="a02b6723458c0f4eb360533b4e8bc51000000000">
 			<Metadata name="Enum.СтатусСотрудника.EnumValue.Работает" id="98e919bb-07a2-4fbd-90bb-9d22eb666874"/>
