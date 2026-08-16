@@ -5,19 +5,38 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
-		<InputField name="Номер" id="1">
-			<DataPath>Объект.Number</DataPath>
-			<EditMode>EnterOnInput</EditMode>
+		<UsualGroup name="Группа1" id="38">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>от</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ДокументОснование" id="40">
+			<DataPath>Объект.ДокументОснование</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
-		</InputField>
-		<InputField name="Дата" id="4">
-			<DataPath>Объект.Date</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+			<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="42"/>
 		</InputField>
 		<InputField name="Контрагент" id="7">
 			<DataPath>Объект.Контрагент</DataPath>
