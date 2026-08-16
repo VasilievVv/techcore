@@ -261,12 +261,14 @@
 			<Document>Заявка</Document>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Document>РезервированиеТоваров</Document>
 			<Enum>СтатусСотрудника</Enum>
 			<Enum>СтатусыЗаявки</Enum>
 			<Report>ОтчетПоОстаткамНоменклауры</Report>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>
+			<AccumulationRegister>РезервыТоваров</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
