@@ -253,6 +253,7 @@
 			<Subsystem>Модуль1</Subsystem>
 			<Subsystem>УчетЗаявок</Subsystem>
 			<Subsystem>МиниСклад</Subsystem>
+			<Subsystem>Модуль4</Subsystem>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Отделы</Catalog>
 			<Catalog>Клиенты</Catalog>
@@ -265,6 +266,7 @@
 			<Enum>СтатусСотрудника</Enum>
 			<Enum>СтатусыЗаявки</Enum>
 			<Report>ОтчетПоОстаткамНоменклауры</Report>
+			<Report>Продажи</Report>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>
