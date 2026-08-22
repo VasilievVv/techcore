@@ -267,6 +267,7 @@
 			<Enum>СтатусыЗаявки</Enum>
 			<Report>ОтчетПоОстаткамНоменклауры</Report>
 			<Report>Продажи</Report>
+			<Report>ТопТоваров</Report>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>

@@ -37,7 +37,7 @@
 		<Metadata name="Catalog.Услуги.Form.ФормаСписка.Form" id="961918e6-2e1d-421c-93b2-657f9c41dbe2.0" configVersion="a7703a868202fe4d8abd6cbe062a8bc300000000"/>
 		<Metadata name="Catalog.Услуги.Form.ФормаЭлемента" id="f43528e5-f207-4109-b335-786a4ab17be5" configVersion="3a314c2e032dd34193a593dac5c54b2a00000000"/>
 		<Metadata name="Catalog.Услуги.Form.ФормаЭлемента.Form" id="f43528e5-f207-4109-b335-786a4ab17be5.0" configVersion="3cd9b9b3bf81ad41a3f0384315be397800000000"/>
-		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="0650c9edda00c341a99afdd2c5f8e44000000000"/>
+		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="ad94d04b43363d4a981495cbbe9d499c00000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников" id="eb2621e1-0fb5-4594-9206-14837c7678fc" configVersion="836ab88286ae4b4bb7b54649d3b875f600000000">
 			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Attribute.ФорматФайла" id="1a4ae715-1bef-41d8-b097-a04156f5196d"/>
 			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников.Attribute.Отдел" id="1b4a547d-b8b5-407e-b602-82738868ed98"/>
@@ -125,9 +125,12 @@
 		<Metadata name="Report.Продажи" id="5675b117-c528-4760-9444-05fb5365fb64" configVersion="85f9d477d5c083468214b7892d816ad500000000"/>
 		<Metadata name="Report.Продажи.Template.ОсновнаяСхемаКомпоновкиДанных" id="9904b59b-965a-454c-bc53-cc0f213c48c2" configVersion="e2fb17143dcd124da212159feac62fb700000000"/>
 		<Metadata name="Report.Продажи.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="9904b59b-965a-454c-bc53-cc0f213c48c2.0" configVersion="7570cceae2241f4e83e2e9692dcee26f00000000"/>
+		<Metadata name="Report.ТопТоваров" id="9dbecc4e-f284-444f-bcf7-7853036db26f" configVersion="f23c1b39bd15c346acf165a697482bbe00000000"/>
+		<Metadata name="Report.ТопТоваров.Template.ОсновнаяСхемаКомпоновкиДанных" id="a17ce59c-7fcc-4555-89bc-0f66b93db944" configVersion="e2890d60fc46e649b33d0b9b2ceb437b00000000"/>
+		<Metadata name="Report.ТопТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a17ce59c-7fcc-4555-89bc-0f66b93db944.0" configVersion="7074e640c9dfe241a2fcbf1aff8c622400000000"/>
 		<Metadata name="Subsystem.МиниСклад" id="b589b3ad-3d92-4149-8682-ee0e50791ddc" configVersion="8ade979d9de70848a3fb784ab55a7c3100000000"/>
 		<Metadata name="Subsystem.Модуль1" id="a925d9b3-c89a-4d34-bbf6-886db256869a" configVersion="783df9f9f09e1b4a813533a44dd021ac00000000"/>
-		<Metadata name="Subsystem.Модуль4" id="f73b22fe-62c5-48a3-b69b-b22cb9f71f88" configVersion="34a4fd407c07f140a5ec6a5f979b916d00000000"/>
+		<Metadata name="Subsystem.Модуль4" id="f73b22fe-62c5-48a3-b69b-b22cb9f71f88" configVersion="b3b62d849b65104580ee60f03eec20d100000000"/>
 		<Metadata name="Subsystem.УчетЗаявок" id="6d608a7c-7351-4963-92c6-bb385ff24593" configVersion="15b9519297401c4c989f1015e5f20d8000000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
