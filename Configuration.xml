@@ -252,15 +252,30 @@
 			<Language>Русский</Language>
 			<Subsystem>Модуль1</Subsystem>
 			<Subsystem>УчетЗаявок</Subsystem>
+			<Subsystem>МиниСклад</Subsystem>
+			<Subsystem>Модуль4</Subsystem>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Отделы</Catalog>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Услуги</Catalog>
+			<Catalog>Номенклатура</Catalog>
 			<Document>Заявка</Document>
+			<Document>Поступление</Document>
+			<Document>Реализация</Document>
+			<Document>РезервированиеТоваров</Document>
+			<Document>ПоступлениеДенежныхСредств</Document>
 			<Enum>СтатусСотрудника</Enum>
 			<Enum>СтатусыЗаявки</Enum>
+			<Report>ОтчетПоОстаткамНоменклауры</Report>
+			<Report>Продажи</Report>
+			<Report>ТопТоваров</Report>
+			<Report>ЗадолженностиКонтрагентов</Report>
+			<Report>ABCанализКлиентов</Report>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
+			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>
+			<AccumulationRegister>РезервыТоваров</AccumulationRegister>
+			<AccumulationRegister>ВзаиморасчетыСПокупателями</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
