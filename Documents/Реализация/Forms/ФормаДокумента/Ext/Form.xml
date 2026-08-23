@@ -142,6 +142,16 @@
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
+			<Item>
+				<Command>AccumulationRegister.РезервыТоваров.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.ВзаиморасчетыСПокупателями.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
 		</NavigationPanel>
 	</CommandInterface>
 </Form>

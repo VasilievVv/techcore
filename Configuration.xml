@@ -263,15 +263,18 @@
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Document>РезервированиеТоваров</Document>
+			<Document>ПоступлениеДенежныхСредств</Document>
 			<Enum>СтатусСотрудника</Enum>
 			<Enum>СтатусыЗаявки</Enum>
 			<Report>ОтчетПоОстаткамНоменклауры</Report>
 			<Report>Продажи</Report>
 			<Report>ТопТоваров</Report>
+			<Report>ЗадолженностиКонтрагентов</Report>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>
 			<AccumulationRegister>РезервыТоваров</AccumulationRegister>
+			<AccumulationRegister>ВзаиморасчетыСПокупателями</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
