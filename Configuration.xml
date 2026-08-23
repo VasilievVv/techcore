@@ -270,6 +270,7 @@
 			<Report>Продажи</Report>
 			<Report>ТопТоваров</Report>
 			<Report>ЗадолженностиКонтрагентов</Report>
+			<Report>ABCанализКлиентов</Report>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>

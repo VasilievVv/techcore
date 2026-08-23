@@ -41,7 +41,7 @@
 		<Metadata name="Catalog.Услуги.Form.ФормаСписка.Form" id="961918e6-2e1d-421c-93b2-657f9c41dbe2.0" configVersion="a7703a868202fe4d8abd6cbe062a8bc300000000"/>
 		<Metadata name="Catalog.Услуги.Form.ФормаЭлемента" id="f43528e5-f207-4109-b335-786a4ab17be5" configVersion="3a314c2e032dd34193a593dac5c54b2a00000000"/>
 		<Metadata name="Catalog.Услуги.Form.ФормаЭлемента.Form" id="f43528e5-f207-4109-b335-786a4ab17be5.0" configVersion="3cd9b9b3bf81ad41a3f0384315be397800000000"/>
-		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="969edba82cb6a1408f24e91f22bd99d600000000"/>
+		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="89dc8aff5a6c244abee239ae4d47b61400000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников" id="eb2621e1-0fb5-4594-9206-14837c7678fc" configVersion="836ab88286ae4b4bb7b54649d3b875f600000000">
 			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.Attribute.ФорматФайла" id="1a4ae715-1bef-41d8-b097-a04156f5196d"/>
 			<Metadata name="DataProcessor.ЗагрузкаСпискаСотрудников.TabularSection.СписокСотрудников.Attribute.Отдел" id="1b4a547d-b8b5-407e-b602-82738868ed98"/>
@@ -130,6 +130,9 @@
 			<Metadata name="InformationRegister.СтатусыЗаявок.Resource.Статус" id="d3754437-ab91-4bc3-9c00-8eaf47fd0ced"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="676ff51a-2804-4a39-950f-9dc77fc4a726" configVersion="e3b206d649b18a41be58d95d99fe827e00000000"/>
+		<Metadata name="Report.ABCанализКлиентов" id="73b969b1-17e2-4df8-a732-0bdb6d1ae041" configVersion="704db61414056e40ad7d0b6bf653ae6400000000"/>
+		<Metadata name="Report.ABCанализКлиентов.Template.ОсновнаяСхемаКомпоновкиДанных" id="5702d7f4-6829-4e02-9bd1-857c6c176cba" configVersion="565f75862dbe9d48a7513bfbbe8d65c700000000"/>
+		<Metadata name="Report.ABCанализКлиентов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="5702d7f4-6829-4e02-9bd1-857c6c176cba.0" configVersion="b4e6fbdaceea0248b83fed8f448f86e900000000"/>
 		<Metadata name="Report.ЗадолженностиКонтрагентов" id="3652f2fd-9bd1-4cc0-bbac-49c579cbe2f9" configVersion="cd2e40556c166d439c8e5b1e12f3c3e100000000"/>
 		<Metadata name="Report.ЗадолженностиКонтрагентов.Template.ОсновнаяСхемаКомпоновкиДанных" id="289b1971-c737-4633-9367-184db6a0284c" configVersion="33cabb8aef99c94f8e5bd31223c55f4e00000000"/>
 		<Metadata name="Report.ЗадолженностиКонтрагентов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="289b1971-c737-4633-9367-184db6a0284c.0" configVersion="794aa9fda3c9b24582ea0473504542ed00000000"/>
@@ -144,7 +147,7 @@
 		<Metadata name="Report.ТопТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a17ce59c-7fcc-4555-89bc-0f66b93db944.0" configVersion="7074e640c9dfe241a2fcbf1aff8c622400000000"/>
 		<Metadata name="Subsystem.МиниСклад" id="b589b3ad-3d92-4149-8682-ee0e50791ddc" configVersion="8ade979d9de70848a3fb784ab55a7c3100000000"/>
 		<Metadata name="Subsystem.Модуль1" id="a925d9b3-c89a-4d34-bbf6-886db256869a" configVersion="783df9f9f09e1b4a813533a44dd021ac00000000"/>
-		<Metadata name="Subsystem.Модуль4" id="f73b22fe-62c5-48a3-b69b-b22cb9f71f88" configVersion="368433f742f2dc46b3d9cd87cdb86bf000000000"/>
+		<Metadata name="Subsystem.Модуль4" id="f73b22fe-62c5-48a3-b69b-b22cb9f71f88" configVersion="c2e758618e09ca42a956987fcebdfbd900000000"/>
 		<Metadata name="Subsystem.УчетЗаявок" id="6d608a7c-7351-4963-92c6-bb385ff24593" configVersion="15b9519297401c4c989f1015e5f20d8000000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
