@@ -52,6 +52,12 @@
 			<ContextMenu name="ТочкаМаршрутаКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ТочкаМаршрутаРасширеннаяПодсказка" id="15"/>
 		</InputField>
+		<InputField name="СрокВыполнения" id="36">
+			<DataPath>Объект.СрокВыполнения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СрокВыполненияКонтекстноеМеню" id="37"/>
+			<ExtendedTooltip name="СрокВыполненияРасширеннаяПодсказка" id="38"/>
+		</InputField>
 		<UsualGroup name="ГруппаОсновныеСведения" id="31">
 			<Title>
 				<v8:item>

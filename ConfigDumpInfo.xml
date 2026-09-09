@@ -25,7 +25,7 @@
 			<Metadata name="AccumulationRegister.ТоварыНаСкладе.Resource.Количество" id="756bd14c-7fb1-4462-a99e-277c5d33c6a6"/>
 			<Metadata name="AccumulationRegister.ТоварыНаСкладе.Dimension.Номенклатура" id="8d208113-7602-4a7f-a1a2-375716bce38e"/>
 		</Metadata>
-		<Metadata name="BusinessProcess.СогласованиеОтпуска" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0" configVersion="00a9a8341181fe4f95ccc67b2c1c010e00000000">
+		<Metadata name="BusinessProcess.СогласованиеОтпуска" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0" configVersion="e5381bdfdbb5ce4e9dd7e38ce46f063c00000000">
 			<Metadata name="BusinessProcess.СогласованиеОтпуска.Attribute.ДатаНачалаОтпуска" id="1a1d54f5-d0d1-434d-96c3-761b8012a7bc"/>
 			<Metadata name="BusinessProcess.СогласованиеОтпуска.Attribute.КомментарийРуководителя" id="5ecaa21d-80c4-4b8d-904e-9f961cdddc92"/>
 			<Metadata name="BusinessProcess.СогласованиеОтпуска.Attribute.ДатаОкончанияОтпуска" id="80ea3908-1acf-4e02-b54c-97e98d1ce4e2"/>
@@ -38,7 +38,7 @@
 		<Metadata name="BusinessProcess.СогласованиеОтпуска.Flowchart" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0.7" configVersion="e3b1346b0a5f40428376a54f626a8da000000000"/>
 		<Metadata name="BusinessProcess.СогласованиеОтпуска.Form.ФормаБизнесПроцесса" id="aa4ce014-6119-4a28-9ad4-5d0350936548" configVersion="5ccd6e6514365d4a8a08ae49a7f49b6300000000"/>
 		<Metadata name="BusinessProcess.СогласованиеОтпуска.Form.ФормаБизнесПроцесса.Form" id="aa4ce014-6119-4a28-9ad4-5d0350936548.0" configVersion="7f7cee6a52c9af4b9141c0e41c16e09400000000"/>
-		<Metadata name="BusinessProcess.СогласованиеОтпуска.ObjectModule" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0.6" configVersion="1fcc59e745d1d84b8a6aec8809bb1cd000000000"/>
+		<Metadata name="BusinessProcess.СогласованиеОтпуска.ObjectModule" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0.6" configVersion="eb3a4d8dd5ab314099018aa93adb444500000000"/>
 		<Metadata name="Catalog.Должности" id="4d8e7a52-f59d-4b89-adf2-f295ed00731c" configVersion="a877e38ad65b824bbd5ba91cead9e4ac00000000"/>
 		<Metadata name="Catalog.Должности.Predefined" id="4d8e7a52-f59d-4b89-adf2-f295ed00731c.1c" configVersion="8e3d9d9b1b25d24a9388070a922b8ca600000000"/>
 		<Metadata name="Catalog.Клиенты" id="0b7f5f1b-d5f5-4af4-99bb-35146080bfa4" configVersion="e73547ac0f2d094f91ba66299861fd8d00000000">
@@ -106,7 +106,7 @@
 		<Metadata name="Document.Заявка.ObjectModule" id="b7de5b0f-57a7-4ca5-9d31-54863060d278.0" configVersion="96ace05fde70e64fac623c2ef5e9d1d600000000"/>
 		<Metadata name="Document.Заявка.Template.Печать" id="cea4c238-0a6a-421f-b693-9b992cadbf71" configVersion="5870c32e8217a340b0c5ce2ed193bbc800000000"/>
 		<Metadata name="Document.Заявка.Template.Печать.Template" id="cea4c238-0a6a-421f-b693-9b992cadbf71.0" configVersion="3b387f2e92203c4f85494f7601d03a4700000000"/>
-		<Metadata name="Document.ЗаявлениеНаОтпуск" id="a5a0f0d7-b1ae-4b78-b71b-b7c02030b3b4" configVersion="641c4f7bc8c1a94287fee0ad3255334000000000">
+		<Metadata name="Document.ЗаявлениеНаОтпуск" id="a5a0f0d7-b1ae-4b78-b71b-b7c02030b3b4" configVersion="3804e2d1f53e2541886eca3cd2c5cd7c00000000">
 			<Metadata name="Document.ЗаявлениеНаОтпуск.Attribute.Согласованно" id="16290579-aacd-459f-9b4a-3d5498bb742d"/>
 			<Metadata name="Document.ЗаявлениеНаОтпуск.Attribute.ДатаНачалаОтпуска" id="90f62eff-6b83-4146-9359-aa731043eac0"/>
 			<Metadata name="Document.ЗаявлениеНаОтпуск.Attribute.ДатаОкончанияОтпуска" id="ae78ba91-9156-477d-8e1e-eef3b34ef126"/>
@@ -116,7 +116,7 @@
 		<Metadata name="Document.ЗаявлениеНаОтпуск.Form.ФормаДокумента.Form" id="88e7d44f-0e7b-49cf-9767-9d1ac5944f8e.0" configVersion="1ce1465a537e7e468493d4a8571508cc00000000"/>
 		<Metadata name="Document.ЗаявлениеНаОтпуск.Form.ФормаСписка" id="32bd4bd7-65c1-463a-a8d4-93dcfddcaba9" configVersion="cdc5eb7204922947aa7fc81ce346e5f500000000"/>
 		<Metadata name="Document.ЗаявлениеНаОтпуск.Form.ФормаСписка.Form" id="32bd4bd7-65c1-463a-a8d4-93dcfddcaba9.0" configVersion="517a8c63ef18e046bbce15a852f158f300000000"/>
-		<Metadata name="Document.ЗаявлениеНаОтпуск.ObjectModule" id="a5a0f0d7-b1ae-4b78-b71b-b7c02030b3b4.0" configVersion="c8093da9389dbe4cb7ef12fc18a5d55100000000"/>
+		<Metadata name="Document.ЗаявлениеНаОтпуск.ObjectModule" id="a5a0f0d7-b1ae-4b78-b71b-b7c02030b3b4.0" configVersion="1b8901f532ceb049b276573a6f201a4600000000"/>
 		<Metadata name="Document.Поступление" id="17f947e0-a5a3-481d-8387-5c3caf39e401" configVersion="ef6abe6ee5d5c04a8d0497f6c494cf6000000000">
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Сумма" id="45273af4-7d46-4c8c-9eba-192771d4c548"/>
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Количество" id="48962f52-d429-4396-a05f-82fb987ea31e"/>
@@ -219,14 +219,15 @@
 		<Metadata name="Subsystem.Модуль5" id="74be7c29-acc0-4723-ac8d-5d407796224a" configVersion="36a4b94b568cc144a137e027f0f6a6c800000000"/>
 		<Metadata name="Subsystem.Модуль6" id="6541bf4d-b7eb-4452-b541-3e461bc2a5a2" configVersion="ae96f64a145d0e4d90b8a8a7c69e727200000000"/>
 		<Metadata name="Subsystem.УчетЗаявок" id="6d608a7c-7351-4963-92c6-bb385ff24593" configVersion="15b9519297401c4c989f1015e5f20d8000000000"/>
-		<Metadata name="Task.СогласованиеОтпуска" id="11bd3a51-b26b-4375-94f3-deebecc6e8c0" configVersion="ecaaf5f3c50d3a418a095d32145cb90b00000000">
+		<Metadata name="Task.СогласованиеОтпуска" id="11bd3a51-b26b-4375-94f3-deebecc6e8c0" configVersion="d1f5eb6f4fdde04aa97f071267ccdb3b00000000">
 			<Metadata name="Task.СогласованиеОтпуска.AddressingAttribute.Исполнитель" id="3702c70a-ac29-499b-85a9-fa7a49313df5"/>
 			<Metadata name="Task.СогласованиеОтпуска.AddressingAttribute.Должность" id="3f183d57-e907-414e-91db-637d4096be08"/>
+			<Metadata name="Task.СогласованиеОтпуска.Attribute.СрокВыполнения" id="b7215087-804d-4318-abf6-ce488d0605fa"/>
 		</Metadata>
-		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаЗадачи" id="1aa23664-c012-4e14-8114-0feaad380201" configVersion="d5a3ed45395f1d4dbfda69cbd6cc459700000000"/>
-		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаЗадачи.Form" id="1aa23664-c012-4e14-8114-0feaad380201.0" configVersion="4faf3b99d6b12a4f8e7f725cdc629d2400000000"/>
-		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаМоиЗадачи" id="50cbdd03-a109-413f-870f-8a5ddce3c383" configVersion="e57284712030444986c7763ee01ed20800000000"/>
-		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаМоиЗадачи.Form" id="50cbdd03-a109-413f-870f-8a5ddce3c383.0" configVersion="e901a83920ada743b257296bce90eda700000000"/>
+		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаЗадачи" id="1aa23664-c012-4e14-8114-0feaad380201" configVersion="b8b6a1df2488ac429908c456a167e26d00000000"/>
+		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаЗадачи.Form" id="1aa23664-c012-4e14-8114-0feaad380201.0" configVersion="a24d1c0f5e76d949be21bf22817d3d2100000000"/>
+		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаМоиЗадачи" id="50cbdd03-a109-413f-870f-8a5ddce3c383" configVersion="2f42ded2a1055b4e91fb17d0c93641dd00000000"/>
+		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаМоиЗадачи.Form" id="50cbdd03-a109-413f-870f-8a5ddce3c383.0" configVersion="f29e947ebce852459907914e3a97811500000000"/>
 		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаСписка" id="fdfa95ba-66e1-4d9e-8753-2710fc57a2e6" configVersion="af54037d9bbcfb40bd7127e96413c80d00000000"/>
 		<Metadata name="Task.СогласованиеОтпуска.Form.ФормаСписка.Form" id="fdfa95ba-66e1-4d9e-8753-2710fc57a2e6.0" configVersion="5dc495da16fc8b40a25ea35af8e9f80f00000000"/>
 	</ConfigVersions>
