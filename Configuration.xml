@@ -280,6 +280,7 @@
 			<Report>ДинамическийОтчетПоПериодам</Report>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
+			<InformationRegister>ГрафикОтпусков</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>
 			<AccumulationRegister>РезервыТоваров</AccumulationRegister>
 			<AccumulationRegister>ВзаиморасчетыСПокупателями</AccumulationRegister>

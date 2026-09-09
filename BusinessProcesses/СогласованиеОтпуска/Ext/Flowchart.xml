@@ -291,7 +291,7 @@
 				<PictureSize>AutoSize</PictureSize>
 			</Properties>
 			<Events>
-				<Event name="OnComplete"/>
+				<Event name="OnComplete">ЗавершениеПриЗавершении</Event>
 			</Events>
 		</Completion>
 	</Items>
