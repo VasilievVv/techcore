@@ -3,7 +3,7 @@
 	<WorkingAreaTemplate>OneColumn</WorkingAreaTemplate>
 	<Column>
 		<Item>
-			<Form>CommonForm.ФормаДашборда</Form>
+			<Form>Task.СогласованиеОтпуска.Form.ФормаМоиЗадачи</Form>
 			<Height>10</Height>
 			<Visibility>
 				<xr:Common>true</xr:Common>

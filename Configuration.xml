@@ -256,6 +256,8 @@
 			<Subsystem>Модуль4</Subsystem>
 			<Subsystem>Модуль5</Subsystem>
 			<Subsystem>Модуль6</Subsystem>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Role>ПолныеПрава</Role>
 			<CommonForm>ФормаДашборда</CommonForm>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Отделы</Catalog>
@@ -281,6 +283,7 @@
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
 			<InformationRegister>ГрафикОтпусков</InformationRegister>
+			<InformationRegister>РегистрАдресации</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>
 			<AccumulationRegister>РезервыТоваров</AccumulationRegister>
 			<AccumulationRegister>ВзаиморасчетыСПокупателями</AccumulationRegister>

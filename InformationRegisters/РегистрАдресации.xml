@@ -1,73 +1,61 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Task uuid="11bd3a51-b26b-4375-94f3-deebecc6e8c0">
+	<InformationRegister uuid="9c329f86-f7b8-40e3-b5c6-138213bd8467">
 		<InternalInfo>
-			<xr:GeneratedType name="TaskObject.СогласованиеОтпуска" category="Object">
-				<xr:TypeId>1a7d55d2-7813-4e36-bc0d-a660fb432126</xr:TypeId>
-				<xr:ValueId>fed3e9dd-bd9a-4e08-a348-55d77bf378f3</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.РегистрАдресации" category="Record">
+				<xr:TypeId>4d4f14ac-fff3-457d-9ba2-ea1419f68898</xr:TypeId>
+				<xr:ValueId>2f8a48de-c86c-4cef-a8f2-0f517180d821</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="TaskRef.СогласованиеОтпуска" category="Ref">
-				<xr:TypeId>4fa7635b-04af-43b4-a79e-9d6eadc60bc2</xr:TypeId>
-				<xr:ValueId>9013a637-e5d8-485e-9c72-56b22bb7ba8b</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.РегистрАдресации" category="Manager">
+				<xr:TypeId>1cd0c642-9a98-4e43-9f53-058f9bb9bf7f</xr:TypeId>
+				<xr:ValueId>64e971e9-e914-4dd0-9d8c-9da70ab572f8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="TaskSelection.СогласованиеОтпуска" category="Selection">
-				<xr:TypeId>970bea22-36a2-47c8-8afd-5870a5e2498c</xr:TypeId>
-				<xr:ValueId>bd7209bc-97d7-46ee-9372-33e156c6e5ae</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.РегистрАдресации" category="Selection">
+				<xr:TypeId>67d977ae-9e3c-436e-b2d5-a02800f8607f</xr:TypeId>
+				<xr:ValueId>0e7fd8f1-e9c8-4e15-b4d4-811a4422bed1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="TaskList.СогласованиеОтпуска" category="List">
-				<xr:TypeId>33afcdb8-da02-4565-bd3a-decbeb5e25b9</xr:TypeId>
-				<xr:ValueId>4d38e9d4-0e85-42ea-8fa2-d895397f50ce</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.РегистрАдресации" category="List">
+				<xr:TypeId>46ba46d6-6eb4-4fb9-8e97-fc738778f983</xr:TypeId>
+				<xr:ValueId>e83f8d09-44cb-41a9-9fe1-a0996630df17</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="TaskManager.СогласованиеОтпуска" category="Manager">
-				<xr:TypeId>a823ae06-bff8-40fe-9ba0-5c17cee14c2a</xr:TypeId>
-				<xr:ValueId>d3209af4-45d3-44cc-9b66-04f23b88441c</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РегистрАдресации" category="RecordSet">
+				<xr:TypeId>2078aca3-5f92-4f82-a3cd-2b514cff9d09</xr:TypeId>
+				<xr:ValueId>9508754c-b829-4b62-a6c1-91d37397acfa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РегистрАдресации" category="RecordKey">
+				<xr:TypeId>718bafb8-5546-4964-9ca5-bf00442601c2</xr:TypeId>
+				<xr:ValueId>5f0f296e-c6e4-4baa-b92f-11143473138c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РегистрАдресации" category="RecordManager">
+				<xr:TypeId>56a6e5c5-334e-45b3-b8d5-9b41f6db3e3a</xr:TypeId>
+				<xr:ValueId>9fda3ddc-95b7-41cc-885d-a14dc02f054a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СогласованиеОтпуска</Name>
+			<Name>РегистрАдресации</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Согласование отпуска</v8:content>
+					<v8:content>Регистр адресации</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<NumberType>String</NumberType>
-			<NumberLength>5</NumberLength>
-			<NumberAllowedLength>Variable</NumberAllowedLength>
-			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
-			<TaskNumberAutoPrefix>DontUse</TaskNumberAutoPrefix>
-			<DescriptionLength>50</DescriptionLength>
-			<Addressing>InformationRegister.РегистрАдресации</Addressing>
-			<MainAddressingAttribute>Task.СогласованиеОтпуска.AddressingAttribute.Исполнитель</MainAddressingAttribute>
-			<CurrentPerformer>SessionParameter.ТекущийПользователь</CurrentPerformer>
-			<BasedOn/>
-			<Characteristics/>
-			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<EditType>InDialog</EditType>
-			<InputByString>
-				<xr:Field>Task.СогласованиеОтпуска.StandardAttribute.Description</xr:Field>
-				<xr:Field>Task.СогласованиеОтпуска.StandardAttribute.Number</xr:Field>
-			</InputByString>
-			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
-			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<CreateOnInput>DontUse</CreateOnInput>
-			<DefaultObjectForm>Task.СогласованиеОтпуска.Form.ФормаЗадачи</DefaultObjectForm>
-			<DefaultListForm>Task.СогласованиеОтпуска.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm/>
-			<AuxiliaryObjectForm/>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<AuxiliaryChoiceForm/>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>false</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
-			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation/>
-			<ExtendedObjectPresentation/>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
@@ -76,10 +64,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Form>ФормаЗадачи</Form>
-			<Form>ФормаСписка</Form>
-			<Form>ФормаМоиЗадачи</Form>
-			<AddressingAttribute uuid="3702c70a-ac29-499b-85a9-fa7a49313df5">
+			<Dimension uuid="2321d692-9585-42b0-abb6-bef7e588a37d">
 				<Properties>
 					<Name>Исполнитель</Name>
 					<Synonym>
@@ -113,13 +98,16 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
-					<AddressingDimension>InformationRegister.РегистрАдресации.Dimension.Исполнитель</AddressingDimension>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</AddressingAttribute>
-			<AddressingAttribute uuid="3f183d57-e907-414e-91db-637d4096be08">
+			</Dimension>
+			<Dimension uuid="b4ae23e8-9c6f-4b7d-8a6e-557d1c3bdf24">
 				<Properties>
 					<Name>Должность</Name>
 					<Synonym>
@@ -153,12 +141,15 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
-					<AddressingDimension>InformationRegister.РегистрАдресации.Dimension.Должность</AddressingDimension>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</AddressingAttribute>
+			</Dimension>
 		</ChildObjects>
-	</Task>
+	</InformationRegister>
 </MetaDataObject>

@@ -4,6 +4,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаРеквизитыДокумента" id="16">
 			<ReadOnly>true</ReadOnly>
@@ -47,6 +50,7 @@
 		</UsualGroup>
 		<InputField name="Сотрудник" id="7">
 			<DataPath>Объект.Сотрудник</DataPath>
+			<ReadOnly>true</ReadOnly>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СотрудникКонтекстноеМеню" id="8"/>
@@ -97,6 +101,13 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<CheckBoxField name="Согласованно" id="20">
+			<DataPath>Объект.Согласованно</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>CheckBox</CheckBoxType>
+			<ContextMenu name="СогласованноКонтекстноеМеню" id="21"/>
+			<ExtendedTooltip name="СогласованноРасширеннаяПодсказка" id="22"/>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

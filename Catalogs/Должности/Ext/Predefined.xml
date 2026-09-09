@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="1ea6dde7-62a6-4981-b1b4-8302a75d5928">
+		<Name>HRСпециалист</Name>
+		<Code>000000003</Code>
+		<Description>HR Специалист</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="4a333c0a-700d-45df-8b83-b1f9eac16a68">
 		<Name>Менеджер</Name>
 		<Code>000000001</Code>
