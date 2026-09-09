@@ -55,6 +55,18 @@
 					<ContextMenu name="ОтделКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="ОтделРасширеннаяПодсказка" id="9"/>
 				</InputField>
+				<InputField name="Должность" id="15">
+					<DataPath>Объект.Должность</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДолжностьКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="ДолжностьРасширеннаяПодсказка" id="17"/>
+				</InputField>
+				<InputField name="Руководитель" id="18">
+					<DataPath>Объект.Руководитель</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="РуководительКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="РуководительРасширеннаяПодсказка" id="20"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>

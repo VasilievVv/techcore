@@ -252,15 +252,40 @@
 			<Language>Русский</Language>
 			<Subsystem>Модуль1</Subsystem>
 			<Subsystem>УчетЗаявок</Subsystem>
+			<Subsystem>МиниСклад</Subsystem>
+			<Subsystem>Модуль4</Subsystem>
+			<Subsystem>Модуль5</Subsystem>
+			<Subsystem>Модуль6</Subsystem>
+			<CommonForm>ФормаДашборда</CommonForm>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Отделы</Catalog>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Услуги</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>Должности</Catalog>
 			<Document>Заявка</Document>
+			<Document>Поступление</Document>
+			<Document>Реализация</Document>
+			<Document>РезервированиеТоваров</Document>
+			<Document>ПоступлениеДенежныхСредств</Document>
+			<Document>ЗаявлениеНаОтпуск</Document>
 			<Enum>СтатусСотрудника</Enum>
 			<Enum>СтатусыЗаявки</Enum>
+			<Report>ОтчетПоОстаткамНоменклауры</Report>
+			<Report>Продажи</Report>
+			<Report>ТопТоваров</Report>
+			<Report>ЗадолженностиКонтрагентов</Report>
+			<Report>ABCанализКлиентов</Report>
+			<Report>ПродажиПоМенеджерам</Report>
+			<Report>ДинамическийОтчетПоПериодам</Report>
 			<DataProcessor>ЗагрузкаСпискаСотрудников</DataProcessor>
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
+			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>
+			<AccumulationRegister>РезервыТоваров</AccumulationRegister>
+			<AccumulationRegister>ВзаиморасчетыСПокупателями</AccumulationRegister>
+			<AccumulationRegister>ПродажиПоМенеджерам</AccumulationRegister>
+			<BusinessProcess>СогласованиеОтпуска</BusinessProcess>
+			<Task>СогласованиеОтпуска</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
