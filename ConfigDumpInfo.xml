@@ -25,7 +25,7 @@
 			<Metadata name="AccumulationRegister.ТоварыНаСкладе.Resource.Количество" id="756bd14c-7fb1-4462-a99e-277c5d33c6a6"/>
 			<Metadata name="AccumulationRegister.ТоварыНаСкладе.Dimension.Номенклатура" id="8d208113-7602-4a7f-a1a2-375716bce38e"/>
 		</Metadata>
-		<Metadata name="BusinessProcess.СогласованиеОтпуска" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0" configVersion="185d2564d8dcc9429125146d0fc789ff00000000">
+		<Metadata name="BusinessProcess.СогласованиеОтпуска" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0" configVersion="23af9172921a314a900fb636d50321a200000000">
 			<Metadata name="BusinessProcess.СогласованиеОтпуска.Attribute.ДатаНачалаОтпуска" id="1a1d54f5-d0d1-434d-96c3-761b8012a7bc"/>
 			<Metadata name="BusinessProcess.СогласованиеОтпуска.Attribute.КомментарийРуководителя" id="5ecaa21d-80c4-4b8d-904e-9f961cdddc92"/>
 			<Metadata name="BusinessProcess.СогласованиеОтпуска.Attribute.ДатаОкончанияОтпуска" id="80ea3908-1acf-4e02-b54c-97e98d1ce4e2"/>
@@ -35,10 +35,10 @@
 			<Metadata name="BusinessProcess.СогласованиеОтпуска.Attribute.КомментарийHR" id="e5c0b9fe-5e72-4a3a-bc75-a98b799935a2"/>
 			<Metadata name="BusinessProcess.СогласованиеОтпуска.Attribute.ДокументОснование" id="eda4d330-f46b-4303-b2a9-15226ae39491"/>
 		</Metadata>
-		<Metadata name="BusinessProcess.СогласованиеОтпуска.Flowchart" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0.7" configVersion="476514668f0515438c83e78399c0da4100000000"/>
-		<Metadata name="BusinessProcess.СогласованиеОтпуска.Form.ФормаБизнесПроцесса" id="aa4ce014-6119-4a28-9ad4-5d0350936548" configVersion="5ccd6e6514365d4a8a08ae49a7f49b6300000000"/>
-		<Metadata name="BusinessProcess.СогласованиеОтпуска.Form.ФормаБизнесПроцесса.Form" id="aa4ce014-6119-4a28-9ad4-5d0350936548.0" configVersion="7f7cee6a52c9af4b9141c0e41c16e09400000000"/>
-		<Metadata name="BusinessProcess.СогласованиеОтпуска.ObjectModule" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0.6" configVersion="bbf3af6ffd073c4694179ee8ef293bcf00000000"/>
+		<Metadata name="BusinessProcess.СогласованиеОтпуска.Flowchart" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0.7" configVersion="8bb0241e96280d49beb98de59a97ac1e00000000"/>
+		<Metadata name="BusinessProcess.СогласованиеОтпуска.Form.ФормаБизнесПроцесса" id="aa4ce014-6119-4a28-9ad4-5d0350936548" configVersion="3aa3accc1422ad4c9aecc143ccbebe4100000000"/>
+		<Metadata name="BusinessProcess.СогласованиеОтпуска.Form.ФормаБизнесПроцесса.Form" id="aa4ce014-6119-4a28-9ad4-5d0350936548.0" configVersion="1628abdcd4ec064eb11fb6d9c68e6d5200000000"/>
+		<Metadata name="BusinessProcess.СогласованиеОтпуска.ObjectModule" id="8d0c7d26-7143-4c0e-9a3d-5b42360481a0.6" configVersion="628ea4d8b574864685bcfe27a376bb0b00000000"/>
 		<Metadata name="Catalog.Должности" id="4d8e7a52-f59d-4b89-adf2-f295ed00731c" configVersion="a877e38ad65b824bbd5ba91cead9e4ac00000000"/>
 		<Metadata name="Catalog.Должности.Predefined" id="4d8e7a52-f59d-4b89-adf2-f295ed00731c.1c" configVersion="8e3d9d9b1b25d24a9388070a922b8ca600000000"/>
 		<Metadata name="Catalog.Клиенты" id="0b7f5f1b-d5f5-4af4-99bb-35146080bfa4" configVersion="e73547ac0f2d094f91ba66299861fd8d00000000">
@@ -219,7 +219,7 @@
 		<Metadata name="Subsystem.Модуль5" id="74be7c29-acc0-4723-ac8d-5d407796224a" configVersion="36a4b94b568cc144a137e027f0f6a6c800000000"/>
 		<Metadata name="Subsystem.Модуль6" id="6541bf4d-b7eb-4452-b541-3e461bc2a5a2" configVersion="9d4de9d33d3e414eb9210bcbe150bf2600000000"/>
 		<Metadata name="Subsystem.УчетЗаявок" id="6d608a7c-7351-4963-92c6-bb385ff24593" configVersion="15b9519297401c4c989f1015e5f20d8000000000"/>
-		<Metadata name="Task.ЗадачаСотрудника" id="11bd3a51-b26b-4375-94f3-deebecc6e8c0" configVersion="232a9ba5a2030e4a840117b905f51ff600000000">
+		<Metadata name="Task.ЗадачаСотрудника" id="11bd3a51-b26b-4375-94f3-deebecc6e8c0" configVersion="735f584bbca881499aece89baeb043a800000000">
 			<Metadata name="Task.ЗадачаСотрудника.AddressingAttribute.Исполнитель" id="3702c70a-ac29-499b-85a9-fa7a49313df5"/>
 			<Metadata name="Task.ЗадачаСотрудника.AddressingAttribute.Должность" id="3f183d57-e907-414e-91db-637d4096be08"/>
 			<Metadata name="Task.ЗадачаСотрудника.Attribute.СрокВыполнения" id="b7215087-804d-4318-abf6-ce488d0605fa"/>

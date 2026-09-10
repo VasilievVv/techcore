@@ -225,8 +225,8 @@
 			<Events>
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="BeforeCreateTasks"/>
-				<Event name="OnCreateTask"/>
-				<Event name="OnExecute"/>
+				<Event name="OnCreateTask">ПодтверждениеHRПриСозданииЗадач</Event>
+				<Event name="OnExecute">ПодтверждениеHRПриВыполнении</Event>
 				<Event name="CheckExecutionProcessing"/>
 				<Event name="BeforeExecute"/>
 				<Event name="BeforeExecuteInteractively"/>
