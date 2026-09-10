@@ -22,7 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявлениеНаОтпуск</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикОтпусков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РегистрАдресации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">4ffd0bf8-c15b-4a0c-b49f-1a3b9bd3872f</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияСогласованийОтпусков</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

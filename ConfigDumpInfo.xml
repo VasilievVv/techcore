@@ -73,7 +73,7 @@
 		<Metadata name="CommonForm.ФормаДашборда" id="b9f1c5df-331f-43df-9b75-6bf69b3a6f3e" configVersion="c60fe9023ceb024e938bcf5bebd7cb5f00000000"/>
 		<Metadata name="CommonForm.ФормаДашборда.Form" id="b9f1c5df-331f-43df-9b75-6bf69b3a6f3e.0" configVersion="6addb46e8f58b0479aeadc7278cbe05c00000000"/>
 		<Metadata name="CommonForm.ФормаДашборда.Help" id="b9f1c5df-331f-43df-9b75-6bf69b3a6f3e.1" configVersion="64f6389432da7744b464d61c4aef779000000000"/>
-		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="dc5c7d3edd22d5439deddaa98b3baf9c00000000"/>
+		<Metadata name="Configuration.ВасильевВВ_techcore" id="a44ba96f-293f-4085-9d72-d3f92c219d67" configVersion="43008d9a13f1b44889c63d175bfe37ae00000000"/>
 		<Metadata name="Configuration.ВасильевВВ_techcore.ClientApplicationInterface" id="2a719317-dfe7-4c98-bd86-32bc3b562bef.b" configVersion="c340f284d1e408478ba178250ddf961500000000"/>
 		<Metadata name="Configuration.ВасильевВВ_techcore.HomePageWorkArea" id="2a719317-dfe7-4c98-bd86-32bc3b562bef.8" configVersion="414f83c59884234fa305f48bf6a690da00000000"/>
 		<Metadata name="Configuration.ВасильевВВ_techcore.SessionModule" id="2a719317-dfe7-4c98-bd86-32bc3b562bef.7" configVersion="be476fbbee7b4443855e9c07d797b4ad00000000"/>
@@ -177,6 +177,13 @@
 			<Metadata name="InformationRegister.ГрафикОтпусков.Resource.ВОтпускеПо" id="79b1cdb7-ec2a-424e-9ea6-c5e62280d888"/>
 			<Metadata name="InformationRegister.ГрафикОтпусков.Resource.ВОтпускеС" id="e7f952d3-c372-4ba6-9f17-9e8c4cece4f4"/>
 		</Metadata>
+		<Metadata name="InformationRegister.ИсторияСогласованийОтпусков" id="fb9647fc-eb6c-4f95-a4a7-06d2db67addb" configVersion="26c9abd8342cd147b4a5d7d06b577f3e00000000">
+			<Metadata name="InformationRegister.ИсторияСогласованийОтпусков.Resource.Исполнитель" id="18f1eade-5b22-45e4-95c5-44fdee970b93"/>
+			<Metadata name="InformationRegister.ИсторияСогласованийОтпусков.Dimension.Документ" id="2ba09a5a-81b5-491e-8b85-82aed325c5ec"/>
+			<Metadata name="InformationRegister.ИсторияСогласованийОтпусков.Resource.Дата" id="5591c082-9ff1-43be-af24-08d006774615"/>
+			<Metadata name="InformationRegister.ИсторияСогласованийОтпусков.Resource.Результат" id="c267e84f-b16f-4dc7-934b-ed3009175dbf"/>
+			<Metadata name="InformationRegister.ИсторияСогласованийОтпусков.Resource.Этап" id="f6520555-0f57-42f6-a142-c22713fb4936"/>
+		</Metadata>
 		<Metadata name="InformationRegister.РегистрАдресации" id="9c329f86-f7b8-40e3-b5c6-138213bd8467" configVersion="67ac013948c8e04da841185474a1f12c00000000">
 			<Metadata name="InformationRegister.РегистрАдресации.Dimension.Исполнитель" id="2321d692-9585-42b0-abb6-bef7e588a37d"/>
 			<Metadata name="InformationRegister.РегистрАдресации.Dimension.Должность" id="b4ae23e8-9c6f-4b7d-8a6e-557d1c3bdf24"/>
@@ -217,7 +224,7 @@
 		<Metadata name="Subsystem.Модуль1" id="a925d9b3-c89a-4d34-bbf6-886db256869a" configVersion="783df9f9f09e1b4a813533a44dd021ac00000000"/>
 		<Metadata name="Subsystem.Модуль4" id="f73b22fe-62c5-48a3-b69b-b22cb9f71f88" configVersion="c2e758618e09ca42a956987fcebdfbd900000000"/>
 		<Metadata name="Subsystem.Модуль5" id="74be7c29-acc0-4723-ac8d-5d407796224a" configVersion="36a4b94b568cc144a137e027f0f6a6c800000000"/>
-		<Metadata name="Subsystem.Модуль6" id="6541bf4d-b7eb-4452-b541-3e461bc2a5a2" configVersion="9d4de9d33d3e414eb9210bcbe150bf2600000000"/>
+		<Metadata name="Subsystem.Модуль6" id="6541bf4d-b7eb-4452-b541-3e461bc2a5a2" configVersion="e8336c4ae3298141a7a46a17b9c8757400000000"/>
 		<Metadata name="Subsystem.УчетЗаявок" id="6d608a7c-7351-4963-92c6-bb385ff24593" configVersion="15b9519297401c4c989f1015e5f20d8000000000"/>
 		<Metadata name="Task.ЗадачаСотрудника" id="11bd3a51-b26b-4375-94f3-deebecc6e8c0" configVersion="735f584bbca881499aece89baeb043a800000000">
 			<Metadata name="Task.ЗадачаСотрудника.AddressingAttribute.Исполнитель" id="3702c70a-ac29-499b-85a9-fa7a49313df5"/>

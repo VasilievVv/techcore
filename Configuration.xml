@@ -284,6 +284,7 @@
 			<InformationRegister>СтатусыЗаявок</InformationRegister>
 			<InformationRegister>ГрафикОтпусков</InformationRegister>
 			<InformationRegister>РегистрАдресации</InformationRegister>
+			<InformationRegister>ИсторияСогласованийОтпусков</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>
 			<AccumulationRegister>РезервыТоваров</AccumulationRegister>
 			<AccumulationRegister>ВзаиморасчетыСПокупателями</AccumulationRegister>
