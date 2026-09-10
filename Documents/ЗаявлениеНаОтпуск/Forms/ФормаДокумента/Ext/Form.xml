@@ -108,6 +108,74 @@
 			<ContextMenu name="СогласованноКонтекстноеМеню" id="21"/>
 			<ExtendedTooltip name="СогласованноРасширеннаяПодсказка" id="22"/>
 		</CheckBoxField>
+		<Table name="ИсторияСогласований" id="23">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ИсторияСогласований</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ИсторияСогласованийКонтекстноеМеню" id="24"/>
+			<AutoCommandBar name="ИсторияСогласованийКоманднаяПанель" id="25">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="ИсторияСогласованийОбновитьИсторию" id="45">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОбновитьИсторию</CommandName>
+						<ExtendedTooltip name="ИсторияСогласованийОбновитьИсториюРасширеннаяПодсказка" id="46"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ИсторияСогласованийРасширеннаяПодсказка" id="26"/>
+			<SearchStringAddition name="ИсторияСогласованийСтрокаПоиска" id="27">
+				<AdditionSource>
+					<Item>ИсторияСогласований</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсторияСогласованийСтрокаПоискаКонтекстноеМеню" id="28"/>
+				<ExtendedTooltip name="ИсторияСогласованийСтрокаПоискаРасширеннаяПодсказка" id="29"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ИсторияСогласованийСостояниеПросмотра" id="30">
+				<AdditionSource>
+					<Item>ИсторияСогласований</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсторияСогласованийСостояниеПросмотраКонтекстноеМеню" id="31"/>
+				<ExtendedTooltip name="ИсторияСогласованийСостояниеПросмотраРасширеннаяПодсказка" id="32"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ИсторияСогласованийУправлениеПоиском" id="33">
+				<AdditionSource>
+					<Item>ИсторияСогласований</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсторияСогласованийУправлениеПоискомКонтекстноеМеню" id="34"/>
+				<ExtendedTooltip name="ИсторияСогласованийУправлениеПоискомРасширеннаяПодсказка" id="35"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ИсторияСогласованийДата" id="42">
+					<DataPath>ИсторияСогласований.Дата</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИсторияСогласованийДатаКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="ИсторияСогласованийДатаРасширеннаяПодсказка" id="44"/>
+				</InputField>
+				<InputField name="ИсторияСогласованийЭтап" id="36">
+					<DataPath>ИсторияСогласований.Этап</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИсторияСогласованийЭтапКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ИсторияСогласованийЭтапРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<InputField name="ИсторияСогласованийИсполнитель" id="39">
+					<DataPath>ИсторияСогласований.Исполнитель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИсторияСогласованийИсполнительКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="ИсторияСогласованийИсполнительРасширеннаяПодсказка" id="41"/>
+				</InputField>
+			</ChildItems>
+		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -120,16 +188,75 @@
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
 		</Attribute>
-		<Attribute name="СхемаБизнесПроцессаСогласования" id="2">
+		<Attribute name="ИсторияСогласований" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Схема бизнес процесса согласования</v8:content>
+					<v8:content>История согласований</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.2/data/graphscheme">d5p1:FlowchartContextType</v8:Type>
+				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
+			<Columns>
+				<Column name="Этап" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Этап</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Исполнитель" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исполнитель</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Дата" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+			</Columns>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ОбновитьИсторию" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить историю</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить историю</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьИсторию</Action>
+		</Command>
+	</Commands>
 </Form>
