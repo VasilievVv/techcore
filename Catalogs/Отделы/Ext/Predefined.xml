@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="46ecec6e-c238-4ea0-a1a3-05ef938002c6">
+		<Name>ОтделКадров</Name>
+		<Code>000000003</Code>
+		<Description>Отдел кадров</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9eb42800-9791-4670-9332-d21039d92257">
+		<Name>Склад</Name>
+		<Code>000000002</Code>
+		<Description>Склад</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c0754b06-3580-44bc-bc47-5787865b5e08">
+		<Name>Управление</Name>
+		<Code>000000001</Code>
+		<Description>Управление</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
