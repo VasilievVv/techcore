@@ -60,7 +60,7 @@
 			<Autonumbering>true</Autonumbering>
 			<BasedOn/>
 			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
-			<Task>Task.СогласованиеОтпуска</Task>
+			<Task>Task.ЗадачаСотрудника</Task>
 			<CreateTaskInPrivilegedMode>true</CreateTaskInPrivilegedMode>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>

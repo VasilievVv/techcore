@@ -7,7 +7,12 @@
 		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -30,8 +35,8 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
-			<AutoRefresh>false</AutoRefresh>
-			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<AutoRefresh>true</AutoRefresh>
+			<AutoRefreshPeriod>30</AutoRefreshPeriod>
 			<Period>
 				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
 				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
@@ -86,10 +91,10 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="21"/>
 				</LabelField>
-				<LabelField name="Дата" id="22">
-					<DataPath>Список.Date</DataPath>
-					<ContextMenu name="ДатаКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="24"/>
+				<LabelField name="СрокВыполнения" id="34">
+					<DataPath>Список.СрокВыполнения</DataPath>
+					<ContextMenu name="СрокВыполненияКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="СрокВыполненияРасширеннаяПодсказка" id="36"/>
 				</LabelField>
 				<CheckBoxField name="Выполнена" id="25">
 					<DataPath>Список.Executed</DataPath>
@@ -97,16 +102,6 @@
 					<ContextMenu name="ВыполненаКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ВыполненаРасширеннаяПодсказка" id="27"/>
 				</CheckBoxField>
-				<LabelField name="БизнесПроцесс" id="28">
-					<DataPath>Список.BusinessProcess</DataPath>
-					<ContextMenu name="БизнесПроцессКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="БизнесПроцессРасширеннаяПодсказка" id="30"/>
-				</LabelField>
-				<LabelField name="ТочкаМаршрута" id="31">
-					<DataPath>Список.RoutePoint</DataPath>
-					<ContextMenu name="ТочкаМаршрутаКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="ТочкаМаршрутаРасширеннаяПодсказка" id="33"/>
-				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -119,7 +114,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>false</DynamicDataRead>
-				<MainTable>Task.СогласованиеОтпуска.TasksByExecutive</MainTable>
+				<MainTable>Task.ЗадачаСотрудника.TasksByExecutive</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -138,29 +133,5 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<ConditionalAppearance>
-			<dcsset:item>
-				<dcsset:selection>
-					<dcsset:item>
-						<dcsset:field>Список</dcsset:field>
-					</dcsset:item>
-				</dcsset:selection>
-				<dcsset:filter>
-					<dcsset:item xsi:type="dcsset:FilterItemComparison">
-						<dcsset:left xsi:type="dcscor:Field">Список.СрокВыполнения</dcsset:left>
-						<dcsset:comparisonType>Less</dcsset:comparisonType>
-						<dcsset:right xsi:type="v8:StandardBeginningDate">
-							<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
-						</dcsset:right>
-					</dcsset:item>
-				</dcsset:filter>
-				<dcsset:appearance>
-					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-						<dcscor:parameter>ЦветФона</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">style:FieldSelectionBackColor</dcscor:value>
-					</dcscor:item>
-				</dcsset:appearance>
-			</dcsset:item>
-		</ConditionalAppearance>
 	</Attributes>
 </Form>

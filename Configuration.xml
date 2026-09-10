@@ -289,7 +289,7 @@
 			<AccumulationRegister>ВзаиморасчетыСПокупателями</AccumulationRegister>
 			<AccumulationRegister>ПродажиПоМенеджерам</AccumulationRegister>
 			<BusinessProcess>СогласованиеОтпуска</BusinessProcess>
-			<Task>СогласованиеОтпуска</Task>
+			<Task>ЗадачаСотрудника</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<Task uuid="11bd3a51-b26b-4375-94f3-deebecc6e8c0">
 		<InternalInfo>
-			<xr:GeneratedType name="TaskObject.СогласованиеОтпуска" category="Object">
+			<xr:GeneratedType name="TaskObject.ЗадачаСотрудника" category="Object">
 				<xr:TypeId>1a7d55d2-7813-4e36-bc0d-a660fb432126</xr:TypeId>
 				<xr:ValueId>fed3e9dd-bd9a-4e08-a348-55d77bf378f3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="TaskRef.СогласованиеОтпуска" category="Ref">
+			<xr:GeneratedType name="TaskRef.ЗадачаСотрудника" category="Ref">
 				<xr:TypeId>4fa7635b-04af-43b4-a79e-9d6eadc60bc2</xr:TypeId>
 				<xr:ValueId>9013a637-e5d8-485e-9c72-56b22bb7ba8b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="TaskSelection.СогласованиеОтпуска" category="Selection">
+			<xr:GeneratedType name="TaskSelection.ЗадачаСотрудника" category="Selection">
 				<xr:TypeId>970bea22-36a2-47c8-8afd-5870a5e2498c</xr:TypeId>
 				<xr:ValueId>bd7209bc-97d7-46ee-9372-33e156c6e5ae</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="TaskList.СогласованиеОтпуска" category="List">
+			<xr:GeneratedType name="TaskList.ЗадачаСотрудника" category="List">
 				<xr:TypeId>33afcdb8-da02-4565-bd3a-decbeb5e25b9</xr:TypeId>
 				<xr:ValueId>4d38e9d4-0e85-42ea-8fa2-d895397f50ce</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="TaskManager.СогласованиеОтпуска" category="Manager">
+			<xr:GeneratedType name="TaskManager.ЗадачаСотрудника" category="Manager">
 				<xr:TypeId>a823ae06-bff8-40fe-9ba0-5c17cee14c2a</xr:TypeId>
 				<xr:ValueId>d3209af4-45d3-44cc-9b66-04f23b88441c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СогласованиеОтпуска</Name>
+			<Name>ЗадачаСотрудника</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Согласование отпуска</v8:content>
+					<v8:content>Задача сотрудника</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,22 +41,22 @@
 			<TaskNumberAutoPrefix>DontUse</TaskNumberAutoPrefix>
 			<DescriptionLength>50</DescriptionLength>
 			<Addressing>InformationRegister.РегистрАдресации</Addressing>
-			<MainAddressingAttribute>Task.СогласованиеОтпуска.AddressingAttribute.Исполнитель</MainAddressingAttribute>
+			<MainAddressingAttribute>Task.ЗадачаСотрудника.AddressingAttribute.Исполнитель</MainAddressingAttribute>
 			<CurrentPerformer>SessionParameter.ТекущийПользователь</CurrentPerformer>
 			<BasedOn/>
 			<Characteristics/>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<EditType>InDialog</EditType>
 			<InputByString>
-				<xr:Field>Task.СогласованиеОтпуска.StandardAttribute.Description</xr:Field>
-				<xr:Field>Task.СогласованиеОтпуска.StandardAttribute.Number</xr:Field>
+				<xr:Field>Task.ЗадачаСотрудника.StandardAttribute.Description</xr:Field>
+				<xr:Field>Task.ЗадачаСотрудника.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<CreateOnInput>DontUse</CreateOnInput>
-			<DefaultObjectForm>Task.СогласованиеОтпуска.Form.ФормаЗадачи</DefaultObjectForm>
-			<DefaultListForm>Task.СогласованиеОтпуска.Form.ФормаСписка</DefaultListForm>
+			<DefaultObjectForm>Task.ЗадачаСотрудника.Form.ФормаЗадачи</DefaultObjectForm>
+			<DefaultListForm>Task.ЗадачаСотрудника.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -68,7 +68,12 @@
 			<FullTextSearch>Use</FullTextSearch>
 			<ObjectPresentation/>
 			<ExtendedObjectPresentation/>
-			<ListPresentation/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачи</v8:content>
+				</v8:item>
+			</ListPresentation>
 			<ExtendedListPresentation/>
 			<Explanation/>
 			<DataHistory>DontUse</DataHistory>

@@ -122,10 +122,10 @@
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>
-					<AddressingAttribute ref="Task.СогласованиеОтпуска.AddressingAttribute.Исполнитель">
+					<AddressingAttribute ref="Task.ЗадачаСотрудника.AddressingAttribute.Исполнитель">
 						<Value xsi:nil="true"/>
 					</AddressingAttribute>
-					<AddressingAttribute ref="Task.СогласованиеОтпуска.AddressingAttribute.Должность">
+					<AddressingAttribute ref="Task.ЗадачаСотрудника.AddressingAttribute.Должность">
 						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Должности.РуководительОтдела</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
@@ -214,10 +214,10 @@
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>
-					<AddressingAttribute ref="Task.СогласованиеОтпуска.AddressingAttribute.Исполнитель">
+					<AddressingAttribute ref="Task.ЗадачаСотрудника.AddressingAttribute.Исполнитель">
 						<Value xsi:nil="true"/>
 					</AddressingAttribute>
-					<AddressingAttribute ref="Task.СогласованиеОтпуска.AddressingAttribute.Должность">
+					<AddressingAttribute ref="Task.ЗадачаСотрудника.AddressingAttribute.Должность">
 						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Должности.HRСпециалист</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
@@ -276,11 +276,11 @@
 		</ConnectionLine>
 		<Completion id="7" uuid="ef554de9-1ce4-41ab-ab35-1a21e2198161">
 			<Properties>
-				<Name>Завершение</Name>
+				<Name>ЗавершениеССогласованием</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Завершение</v8:content>
+						<v8:content>Завершение с согласованием</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip/>
@@ -304,7 +304,7 @@
 				<PictureSize>AutoSize</PictureSize>
 			</Properties>
 			<Events>
-				<Event name="OnComplete">ЗавершениеПриЗавершении</Event>
+				<Event name="OnComplete">ЗавершениеССогласованиемПриЗавершении</Event>
 			</Events>
 		</Completion>
 		<Condition id="10" uuid="9fb57083-9694-4c19-8053-8617dea8c146">
@@ -367,8 +367,8 @@
 				<PivotPoints>
 					<Point x="400" y="380"/>
 					<Point x="400" y="400"/>
-					<Point x="380" y="400"/>
-					<Point x="380" y="420"/>
+					<Point x="560" y="400"/>
+					<Point x="560" y="420"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -376,7 +376,7 @@
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Завершение2</Item>
+						<Item>ЗавершениеНеСогласованно</Item>
 						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
@@ -438,11 +438,11 @@
 		</ConnectionLine>
 		<Completion id="15" uuid="0caf3aa0-d198-4fb0-978d-abf3272d045a">
 			<Properties>
-				<Name>Завершение2</Name>
+				<Name>ЗавершениеНеСогласованно</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Завершение2</v8:content>
+						<v8:content>Завершение не согласованно</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip/>
@@ -458,7 +458,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="420" left="320" bottom="480" right="440"/>
+				<Location top="420" left="500" bottom="480" right="620"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -466,7 +466,7 @@
 				<PictureSize>AutoSize</PictureSize>
 			</Properties>
 			<Events>
-				<Event name="OnComplete"/>
+				<Event name="OnComplete">ЗавершениеНеСогласованноПриЗавершении</Event>
 			</Events>
 		</Completion>
 		<Condition id="16" uuid="aa95519a-500a-446f-9816-05058d48de70">
@@ -529,8 +529,8 @@
 				<PivotPoints>
 					<Point x="740" y="380"/>
 					<Point x="740" y="400"/>
-					<Point x="720" y="400"/>
-					<Point x="720" y="420"/>
+					<Point x="560" y="400"/>
+					<Point x="560" y="420"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -538,7 +538,7 @@
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Завершение3</Item>
+						<Item>ЗавершениеНеСогласованно</Item>
 						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
@@ -592,7 +592,7 @@
 						<PortIndex>3</PortIndex>
 					</From>
 					<To>
-						<Item>Завершение</Item>
+						<Item>ЗавершениеССогласованием</Item>
 						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
@@ -605,38 +605,5 @@
 				<EndArrow>Filled</EndArrow>
 			</Properties>
 		</ConnectionLine>
-		<Completion id="19" uuid="8081234f-5b11-4904-88a7-21447fd37cbe">
-			<Properties>
-				<Name>Завершение3</Name>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Завершение3</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip/>
-				<TabOrder>15</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>14</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<Location top="420" left="660" bottom="480" right="780"/>
-				<Border width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Border>
-				<Picture/>
-				<PictureSize>AutoSize</PictureSize>
-			</Properties>
-			<Events>
-				<Event name="OnComplete"/>
-			</Events>
-		</Completion>
 	</Items>
 </GraphicalSchema>
