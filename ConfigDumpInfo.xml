@@ -77,10 +77,10 @@
 			<Metadata name="InformationRegister.СтатусыЗаявок.Resource.Статус" id="d3754437-ab91-4bc3-9c00-8eaf47fd0ced"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="676ff51a-2804-4a39-950f-9dc77fc4a726" configVersion="1e7be95a9286884ba13f4b00b6bd559900000000"/>
-		<Metadata name="Role.Бухгалтер" id="af148207-341c-481c-87ce-aef851c94979" configVersion="d3ea88d5c216724e80d9acafcf376d1300000000"/>
-		<Metadata name="Role.Бухгалтер.Rights" id="af148207-341c-481c-87ce-aef851c94979.0" configVersion="b1b58e1a256e994c878803e71ebf74dc00000000"/>
-		<Metadata name="Role.Менеджер" id="960246b9-4fc0-4b8d-a029-0b8bee873fcd" configVersion="86083e8e0f927e4e99d938ceb005e2ac00000000"/>
-		<Metadata name="Role.Менеджер.Rights" id="960246b9-4fc0-4b8d-a029-0b8bee873fcd.0" configVersion="2e511b65c59a3244bfcadf4233d94c7d00000000"/>
+		<Metadata name="Role.Бухгалтер" id="af148207-341c-481c-87ce-aef851c94979" configVersion="2176a3f85551fb498a185397750b949e00000000"/>
+		<Metadata name="Role.Бухгалтер.Rights" id="af148207-341c-481c-87ce-aef851c94979.0" configVersion="efae9861a050e44aa99ff1cf6a6d0edc00000000"/>
+		<Metadata name="Role.Менеджер" id="960246b9-4fc0-4b8d-a029-0b8bee873fcd" configVersion="720fc5f3b6bd774dbdb9d93331dca2e900000000"/>
+		<Metadata name="Role.Менеджер.Rights" id="960246b9-4fc0-4b8d-a029-0b8bee873fcd.0" configVersion="d34e374d78b19840a12be8a51ef8953d00000000"/>
 		<Metadata name="Role.ПолныеПрава" id="4c138ce2-4f9a-4017-8f60-2a9d40e17e0b" configVersion="292ec1f51fcbe24ab0b6edfd8400d24900000000"/>
 		<Metadata name="Role.ПолныеПрава.Rights" id="4c138ce2-4f9a-4017-8f60-2a9d40e17e0b.0" configVersion="bb83ab5675618c44a20591e29aad235f00000000"/>
 		<Metadata name="SessionParameter.ТекущийПользователь" id="177c06b6-b9de-4ab1-bec4-a643ee006769" configVersion="0cd71a8e2e8c4e4bbec5f0ff88f57e9200000000"/>
