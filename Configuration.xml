@@ -252,6 +252,9 @@
 			<Language>Русский</Language>
 			<Subsystem>Модуль1</Subsystem>
 			<Subsystem>УчетЗаявок</Subsystem>
+			<Role>ПолныеПрава</Role>
+			<Role>Менеджер</Role>
+			<Role>Бухгалтер</Role>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Отделы</Catalog>
 			<Catalog>Клиенты</Catalog>
