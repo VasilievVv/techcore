@@ -135,6 +135,10 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<field>Ref</field>
+				<condition>ГДЕ Ответственный = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
